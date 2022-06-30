@@ -1,0 +1,12 @@
+form{
+    width: 200px;
+    margin: 0 auto;
+    
+}
+input{
+    padding: 5px;
+    font-size: 18px;
+}
+input[type='checkbox']{
+    cursor: pointer;
+}

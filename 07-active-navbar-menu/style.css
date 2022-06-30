@@ -1,0 +1,22 @@
+#navbar{
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+#navbar a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 4px 8px;
+}
+.active{
+    background-color: red;
+    color: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}

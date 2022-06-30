@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: #575757;
+  scroll-behavior: smooth;
+}
+
+
+.container{
+  max-width: 45rem;
+  margin: 2rem auto;
+  background-color: #FFF;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  padding: 2rem 0;
+  box-shadow: .1rem -.1rem .5rem .2rem #979797, -.1rem .1rem .5rem .2rem #979797;
+  color: #000;
+  
+  .title{
+    h1{
+      text-align: center;
+      font-size: 2.5rem;
+      padding: 1rem 0.5rem;
+      user-select: none;
+      margin-top: -1rem;
+    }
+  }
+  .converter-container{
+    width: 95%;
+    margin: 0.5rem auto;
+    box-shadow: .1rem -.1rem .4rem .1rem #b6b6b6, -.1rem .1rem .4rem .1rem #b6b6b6;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    padding: 2rem;
+
+    h2.con-title{
+      font-size: 2rem;
+      margin: 0.5rem 0;
+      user-select: none;
+    }
+    .converter-all-input{
+
+      .con-input{
+        margin: 2rem 0;
+
+        input{
+          width: 100%;
+          padding: 0.6rem 1rem;
+          font-size: 1.8rem;
+          outline: none;
+          background-color: #1b1b1b;
+          border: none;
+          color: #fff;
+          border-radius: .3rem;
+          -webkit-border-radius: .3rem;
+          -moz-border-radius: .3rem;
+          -ms-border-radius: .3rem;
+          -o-border-radius: .3rem;
+        }
+      }
+      .reset-btn{
+        text-align: right;
+        
+        button{
+          padding: 0.8rem 2rem;
+          background-color: #1b1b1b;
+          border: none;
+          color: #fff;
+          border-radius: .3rem;
+          -webkit-border-radius: .3rem;
+          -moz-border-radius: .3rem;
+          -ms-border-radius: .3rem;
+          -o-border-radius: .3rem;
+          transition: all 0.4s;
+          -webkit-transition: all 0.4s;
+          -moz-transition: all 0.4s;
+          -ms-transition: all 0.4s;
+          -o-transition: all 0.4s;
+          user-select: none;
+          font-size: 1.6rem;
+          &:hover{
+            cursor: pointer;
+            background: tomato;
+          }
+        }
+      }
+    }
+  }
+}

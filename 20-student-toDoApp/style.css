@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #dbdbdb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.container{
+    width: 850px;
+    margin: 15px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #dddeee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.headerSection{
+    text-align: center;
+    background-color: tomato;
+    padding: 15px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.todoTittle{
+    color: #fff;
+    font-size: 25px;
+}
+.bodySection{
+    width: 100%;
+    overflow: hidden;
+}
+.todoInputArea{
+    width: 39%;
+    float: left;
+    margin: 10px 1% 10px 0;
+}
+.todoInputArea input{
+    border: 1px solid #fff;
+    padding: 5px;
+    outline: none;
+    margin: 4px 8px;
+    width: 90%;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.todoInputArea input:focus{
+    background: #383838;
+    color: #fff;
+}
+.todoInputArea .addStudentBtn{
+    margin-left: 25%;
+}
+.todoInputArea .addBtn{
+    padding: 6px 8px;
+    margin: 10px 0;
+    border: none;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    color: tomato;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.todoInputArea .addBtn:hover{
+    background-color: green;
+    color: #fff;
+}
+
+
+.todoTableArea{
+    width: 59%;
+    margin: 10px 0 10px 1%;
+    float: right;
+}
+.todoTableArea .table{
+    width: 96%;
+}
+.table,
+.table th,
+.table td{
+    border: 2px solid tomato;
+    text-align: left;
+    padding: 3px;
+    border-collapse: collapse;
+}
+th{
+    background: rgba(29, 109, 29, 0.842);
+    color: #fff;
+}
+tr:nth-child(even){
+    background: #fff;
+    color: #000;
+}
+tr:nth-child(odd){
+    background: #dddeee;
+    color: #333;
+}

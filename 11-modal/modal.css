@@ -1,0 +1,48 @@
+#modal{
+    background: #5e5c5c;
+    color: #ece9e9;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: justify;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 3px 10px red;
+    opacity: 0;
+}
+#modal h4,
+#modal h2{
+    text-align: center;
+}
+#close,
+#open{
+    color: #fff;
+    background: #0c8b0c;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    font-size: 16px;
+}
+#close:hover{
+    background: #f74b4b;
+}
+#open{
+    display: block;
+    width: 130px;
+    margin: 0 auto;
+    text-align: center;
+}

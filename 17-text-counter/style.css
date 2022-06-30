@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+h3{
+    margin: 10px 0;
+}
+p{
+    margin: 10px 0;
+}
+#my-textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    background-color: #ebebeb;
+    color: #000000;
+    resize: horizontal;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#my-textarea{
+    outline: 0;
+}
+#text-remaining-chars{
+    color: #333;
+    text-align: right;
+    margin-top: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}

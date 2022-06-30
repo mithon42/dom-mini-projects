@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock - Mithon Islam</title>
+  <!-- css file -->
+  <link rel="stylesheet" href="./clock-style.css">
+</head>
+<body>
+  <!-- Digital Clock Main -->
+  <main>
+    <div class="container">
+
+      <!-- Title / Button Section -->
+      <section>
+        <button id="darkMode">Dark</button>
+        <h3>Digital Clock</h3>
+        <button id="lightMode" class="light">Light</button>
+      </section>
+
+      <!-- Clock Section -->
+      <section class="clock-area" id="clockAreaRoot">
+        <span id="time-hours">0</span>
+        <span class="divider">:</span>
+
+        <span id="time-minutes">0</span>
+        <span class="divider">:</span>
+
+        <span id="time-seconds">0</span>
+
+        <span id="am-pm">AM</span>
+
+        <div class="progress">
+          <div class="progress-bar" id="progress"></div>
+        </div>
+      </section>
+      
+      <!-- Copyright Section -->
+      <section>
+        <small>&copy; 2022 Design By | <a target="_blank" href="https://www.xiowner.com/" title="Website">BD Programmer</a> | <a target="_blank" href="https://www.facebook.com/mithon2003/" title="Facebook Profile">Mithon Islam</a></small>
+      </section>
+    </div>
+  </main>
+
+
+  <!-- js file -->
+  <script src="./clock.js"></script>
+</body>
+</html>

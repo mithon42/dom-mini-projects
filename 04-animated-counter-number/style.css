@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    margin: 10px auto;
+}
+.box1, .box2, .box3{
+    width: 30%;
+    margin: 0 10px ;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0;
+    color: aliceblue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.box1{
+    background-color: #368787;
+}
+.box2{
+    background-color: #808686;
+}
+.box3{
+    background-color: #379c50;
+}
+h3{
+    margin: 20px 0;
+    font-size: 30px;
+}

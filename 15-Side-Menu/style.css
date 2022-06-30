@@ -1,0 +1,87 @@
+.container{
+    color: #fff;
+    width: 90%;
+    margin: auto;
+}
+.navbar{
+    background-color: #369475;
+    overflow: hidden;
+    padding: 8px 20px;
+}
+.fa-bars{
+    font-size: 30px;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    float: right;
+}
+.fa-bars:hover{
+    color: tomato;
+}
+
+.sideBarId{
+    width: 0;
+    height: 100vh;
+    background: #369475ab;
+    position: fixed;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.list{
+    display: none;
+    margin: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.list i{
+    margin: 0 10px;
+    color: black;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.list:hover i{
+    color: #fff;
+    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.sideBarId .list:hover{
+    background: #369475;
+    color: tomato;
+}
+
+.close{
+    width: 200px;
+}
+.itemClose{
+    display: flex;
+}

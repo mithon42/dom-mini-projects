@@ -1,0 +1,113 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #faebd7;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.lead{
+  font-weight: bold;
+  user-select: none;
+}
+.container{
+  width: 400px;
+  margin: 10px auto;
+  padding: 15px;
+  background-color: #d0e2dcf1;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 2px solid tomato;
+}
+h2{
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: tomato;
+  user-select: none;
+}
+.imePrevew{
+  width: 100%;
+  padding: 100px;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 15px;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  box-shadow: 0 1px 8px 2px cadetblue;
+}
+.imagesUploadInput{
+  display: none;
+}
+button{
+  padding: 6px 15px;
+  font-size: 15px;
+  border: none;
+  background-color: cadetblue;
+  color: #fff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+#RemoveBtn{
+  display: none;
+  background: tomato;
+}
+button:hover{
+  opacity: 0.7;
+}
+.imgController{
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 0 1px 8px 2px cadetblue;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  display: none;
+}
+.select-group{
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.select-group:last-child{
+  margin-bottom: 0;
+}
+select.text-input{
+  outline: none;
+  font-size: 15px;
+  float: right;
+  width: 140px;
+}
