@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clock{
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 30px;
+    background: #000;
+    color: red;
+    font-family: sans-serif;
+    box-shadow: 0 0 10px #f81010,
+                0 0 20px #f81010,
+                0 0 40px #f81010,
+                0 0 80px #f81010,
+                0 0 120px #f81010;
+    transition: .4s;
+}
+.clock:hover{
+    color: white;
+    box-shadow: 0 0 10px white,
+                0 0 20px white,
+                0 0 40px white,
+                0 0 80px white,
+                0 0 120px white;
+}
+@media (max-width: 480px) {
+    .clock{
+        max-width: 380px;
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Give Away Raffle Draw App For Javascript || Mithon Islam</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Javascript Give Away Apps</h1>
+        <div class="row">
+            <div class="col-md-6 mt-3">
+                <div class="form-group">
+                    <textarea id="textareaName" placeholder="Enter All Name" rows="5" class="form-control"></textarea>
+                </div>
+                <div>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">All Student List</button>
+
+                    <div class="collapse my-4" id="collapseExample">
+                        <div class="card">
+                            <ul class="list-group" id="name-list">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-3">
+                <div class="card card-body text-center">
+                    <h2 id="display">Display</h2>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-success mt-4" id="give-a-try-btn">Give A Try</button>
+                </div>
+                <ul class="list-group-item my-4">
+                    <h4 class="text-center text-danger mb-3">Winner</h4>
+                    <li class="list-group-item">
+                        <strong>First: <span id="first-position"></span></strong>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Second: <span id="second-position"></span></strong>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Third: <span id="third-position"></span></strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- js file -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/jquery.slim.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

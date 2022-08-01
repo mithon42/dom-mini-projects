@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propose Web - Design By Mithon</title>
+    <!-- Style Css Code -->
+    <style>
+        *{margin: 0; padding: 0;}
+        .container{background-color: #a8ad9f; width: 300px; margin: auto; text-align: center; }
+        h4{padding: 5px; margin: 7px 0;}
+        h1{padding: 10px; color: #f13413; text-shadow: 2px 3px 4px #f05c41a9;}
+        .btn{cursor: pointer; padding: 5px 23px; background-color: #5dcce7; border: none; border-radius: 3px; transition: .3s; font-size: 15px; font-weight: bold; margin-top: 10px;}
+        .yesBtn:hover{color: #fff; background-color: green;}
+        .noBtn:hover{color: #fff; background-color: red;}
+        span{color: white; font-weight: bold;}
+        p{color: white; padding: 7px; font-style: italic;}
+        a{color: #333; text-decoration: none;}
+        a:hover{color: #f13413;}
+        img{width: 85%; height: auto; border-radius: 5px; border: none; box-shadow: 0px 2px 10px #f34646; transition: .4s;}
+        /* Mobile Responcive */
+        @media only screen and (max-width: 300px){.container{width: 100%;}}
+        @media only screen and (max-width: 250px){img{width: 95%;}}
+    </style>
+</head>
+<body>
+    <!-- Propose Apps Start -->
+    <div class="container">
+        <h1 id="propose">I Love You</h1>
+        <button onclick="yes()" class="btn yesBtn">Yes</button>
+        <span>Or</span>
+        <button onclick="no()" class="btn noBtn">No</button>
+        <br><br>
+        <img src="#" alt="">
+        <h4></h4>
+        <p>&copy; Design By: <a href="https://www.fb.com/mithon-2003">Mithon Islam</a></p>
+    </div>
+    <!-- Propose Apps End -->
+    <!-- Javascript Code -->
+    <script>
+        var imgTag = document.querySelector("img")
+        var heading4 = document.querySelector("h4")
+        function yes(){
+            imgTag.src = "img/img-1.jpg"
+            heading4.innerHTML = "কাউকে ভালোবাসার আগে অন্তত্ত ১০০বার ভাবুন, যেই হাতটি একবার ধরেছেন সেই হাতটি মাঝ রাস্তায় ছেড়ে যাবেন না তো..? সারাজীবন সেই হাতটি ধরে থাকতে পারবেন তো..? সুখে-দুঃখে পাশে থাকতে পারবেন তো..? ধন্যবাদ..!"
+        }
+        function no(){
+            imgTag.src = "img/img-2.jpg"
+            heading4.innerHTML = "যে আপনাকে ভালোবাসে.. আপনি তাকে ভালোবাসুন.. দেখবেন জীবনে সুখের অভাব হবে না।"
+        }
+    </script>
+</body>
+</html>
